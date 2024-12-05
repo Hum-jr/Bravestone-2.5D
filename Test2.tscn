@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://2wltjndhmvo8"]
+
+[ext_resource type="MeshLibrary" uid="uid://b1kmgre2ly01n" path="res://Scenes/brick.res" id="1_jkf2m"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="GridMap" type="GridMap" parent="."]
+mesh_library = ExtResource("1_jkf2m")
+data = {
+"cells": PackedInt32Array(0, 65535, 0, 1, 65535, 0, 2, 65535, 0, 65535, 65535, 0, 65534, 65535, 0, 65533, 65535, 0, 65532, 65535, 0, 3, 65535, 0, 4, 65535, 0, 5, 65535, 0, 6, 65535, 0, 7, 65535, 0, 8, 65535, 0, 9, 65535, 0)
+}
+
+[node name="GridMap2" type="GridMap" parent="."]
+mesh_library = ExtResource("1_jkf2m")
+data = {
+"cells": PackedInt32Array(0, 65535, 0, 1, 65535, 0, 2, 65535, 0, 65535, 65535, 0, 65534, 65535, 0, 65533, 65535, 0, 65532, 65535, 0, 3, 65535, 0, 4, 65535, 0, 5, 65535, 0, 6, 65535, 0, 7, 65535, 0, 8, 65535, 0, 9, 65535, 0, 3, 65532, 0, 3, 65533, 0, 2, 65533, 0, 2, 65534, 0, 1, 65534, 0, 4, 65532, 0, 3, 65534, 0, 131070, 65535, 0, 131069, 65535, 0, 131068, 65535, 0, 131071, 65535, 0)
+}
+metadata/_editor_floor_ = Vector3(0, 1, 0)

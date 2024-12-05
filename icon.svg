@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="108.09173mm"
+   height="105.20858mm"
+   viewBox="0 0 108.09173 105.20858"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient7"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#806600;stop-opacity:1;"
+         offset="0"
+         id="stop7" />
+      <stop
+         style="stop-color:#806600;stop-opacity:0;"
+         offset="1"
+         id="stop8" />
+    </linearGradient>
+    <rect
+       x="230.6731"
+       y="340.64517"
+       width="140.81789"
+       height="168.98146"
+       id="rect2" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7"
+       id="linearGradient8"
+       x1="41.515385"
+       y1="111.50326"
+       x2="116.25228"
+       y2="111.50326"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(24.837964,58.898978)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-24.837964,-58.898978)">
+    <rect
+       style="fill:url(#linearGradient8);stroke:none;stroke-width:0.380528"
+       id="rect1"
+       width="108.09173"
+       height="105.20857"
+       x="24.837965"
+       y="58.898975"
+       ry="49.268402"
+       inkscape:export-filename="rect1.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1.4389014,0,0,1.3315755,-278.55341,-380.93433)"
+       id="text1"
+       style="font-size:53.3333px;font-family:LUNERY;-inkscape-font-specification:LUNERY;white-space:pre;shape-inside:url(#rect2);fill:#1a1a1a;fill-opacity:1;stroke:none"><tspan
+         x="230.67383"
+         y="387.95458"
+         id="tspan1">B</tspan></text>
+  </g>
+</svg>

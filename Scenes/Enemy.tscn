@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://cmngwrxv22uvf"]
+
+[ext_resource type="Script" path="res://Scripts/Enemy.cs" id="1_wi7rq"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_20waj"]
+albedo_color = Color(0.916739, 0, 0.12282, 1)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_w1ivs"]
+material = SubResource("StandardMaterial3D_20waj")
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_qwivf"]
+
+[node name="Enemy" type="CharacterBody3D"]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
+script = ExtResource("1_wi7rq")
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="."]
+mesh = SubResource("CapsuleMesh_w1ivs")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_qwivf")
+
+[node name="RayCast3D" type="RayCast3D" parent="."]

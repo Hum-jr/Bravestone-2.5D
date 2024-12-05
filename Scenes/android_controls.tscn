@@ -1,0 +1,37 @@
+[gd_scene load_steps=7 format=3 uid="uid://dav5hory41mwg"]
+
+[ext_resource type="Texture2D" uid="uid://bche1quiagg5w" path="res://assets/transparent-dark/transparentDark03.png" id="1_mbmi3"]
+[ext_resource type="Texture2D" uid="uid://7elml6mxfkhs" path="res://assets/transparent-light/transparentLight03.png" id="2_jx3gu"]
+[ext_resource type="Texture2D" uid="uid://clk7qoq8cvxqy" path="res://assets/transparent-dark/transparentDark04.png" id="2_ms6p5"]
+[ext_resource type="Texture2D" uid="uid://dw5kpnhwvll0c" path="res://assets/transparent-dark/transparentDark01.png" id="3_syhcq"]
+[ext_resource type="Texture2D" uid="uid://mebgogtqigmn" path="res://assets/transparent-light/transparentLight04.png" id="4_4drqt"]
+[ext_resource type="Texture2D" uid="uid://dbmvkayopug0d" path="res://assets/transparent-light/transparentLight01.png" id="6_ik3hd"]
+
+[node name="AndroidControls" type="CanvasLayer"]
+layer = 2
+follow_viewport_enabled = true
+
+[node name="Left" type="TouchScreenButton" parent="."]
+position = Vector2(78, 528)
+scale = Vector2(2, 2)
+texture_normal = ExtResource("1_mbmi3")
+texture_pressed = ExtResource("2_jx3gu")
+passby_press = true
+action = "back"
+
+[node name="Right" type="TouchScreenButton" parent="."]
+position = Vector2(264, 524)
+scale = Vector2(2, 2)
+texture_normal = ExtResource("2_ms6p5")
+texture_pressed = ExtResource("4_4drqt")
+passby_press = true
+action = "foward"
+
+[node name="Jump" type="TouchScreenButton" parent="."]
+z_as_relative = false
+position = Vector2(183, 415)
+scale = Vector2(2, 2)
+texture_normal = ExtResource("3_syhcq")
+texture_pressed = ExtResource("6_ik3hd")
+passby_press = true
+action = "jump"
